@@ -1,0 +1,182 @@
+.main {
+  padding: 0px 0px 25px 280px;
+}
+
+.info-texto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.mais-assistidos {
+  height: auto;
+  width: auto;
+
+  padding: 120px 0px 45px 15px;
+  background: var(--bg1);
+}
+
+.assistindo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  line-height: 1.4;
+}
+
+.mais-assistidos-grid {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.mais-assistidos-game {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.img-game img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  transition: 0.8s ease-out;
+}
+
+@media (max-width: 900px) {
+  .main {
+    padding: 0px 0px 0px 245px;
+  }
+
+  .img-game img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .mais-assistidos-grid {
+    padding-bottom: 50px;
+    overflow: scroll !important;
+  }
+
+  .mais-assistidos {
+    padding: 120px 0px 0px 15px;
+  }
+
+  .info-texto,
+  .assistindo {
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .assistindo {
+    justify-content: start;
+    flex-direction: row;
+  }
+
+  .watch {
+    order: -2;
+  }
+}
+
+@media (max-width: 800px) {
+  .main {
+    padding: 0px 0px 0px 190px;
+  }
+}
+
+@media (max-width: 633px) {
+  .mais-assistidos-grid {
+    padding: 20px 60px 20px 10px;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .img-game img {
+    height: 175px;
+  }
+  .main {
+    padding-left: 95px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main {
+    padding-left: 100px;
+  }
+}
+
+/*
+.img-game img:hover {
+  opacity: 40%;
+}
+*/
+
+.outros-jogos {
+  margin-top: 45px;
+}
+
+.outros-jogos-img img {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.games {
+  grid-column: 1/-1;
+  justify-self: start;
+}
+
+.outros-jogos-grid {
+  padding: 5px 30px 30px 15px;
+
+  margin-top: 18px;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+@media (max-width: 1000px) {
+  .outros-jogos-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+
+  .d-none {
+    display: grid;
+  }
+
+  .md-center {
+    justify-self: center;
+  }
+}
+
+@media (max-width: 1250px) {
+  .outros-jogos-img img {
+    max-height: 240px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 1184px) {
+  .outros-jogos-img img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 700px) {
+  .outros-jogos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .outros-jogos-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

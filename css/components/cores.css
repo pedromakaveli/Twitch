@@ -1,0 +1,55 @@
+:root {
+  --bg-body: linear-gradient(122.9deg, #090116 30.36%, #3b0886 112.9%);
+  --bg1: linear-gradient(
+    93.71deg,
+    #090016 7.16%,
+    #3b0886 55.27%,
+    #090016 96.43%
+  );
+
+  --c1: rgb(27, 27, 27);
+  --c2: #fff;
+  --c3: #645785;
+  --c4: #908c94;
+  --c5: #ff002e;
+  --c6: #7520ff;
+  --c7: #7f61bf;
+}
+
+.c1 {
+  color: var(--c1);
+}
+
+.c2 {
+  color: var(--c2);
+}
+
+.c3 {
+  color: var(--c3);
+}
+
+.c4 {
+  color: var(--c4);
+}
+
+.c5 {
+  color: var(--c5);
+}
+
+.c6 {
+  color: var(--c6);
+}
+
+.c7 {
+  color: var(--c7);
+}
+
+.bg {
+  min-height: 100vh;
+  background-size: cover;
+  background: linear-gradient(122.9deg, #090116 30.36%, #3b0886 112.9%);
+}
+
+.bg-mais-assistidos {
+  background: var(--bg1);
+}

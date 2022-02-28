@@ -1,0 +1,114 @@
+.sidenav {
+  height: 100vh;
+  width: 230px;
+  position: fixed;
+  z-index: 1;
+  top: 4.375rem;
+  left: 0;
+  background: #100521;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-top: 60px;
+}
+
+.sidenav img {
+  width: 300px;
+  transition: 1s all;
+  justify-items: start;
+}
+
+.sidenav img:hover {
+  transform: scale(120%);
+}
+
+.side-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 25px 0px;
+}
+
+.side-navigation a {
+  transition: 1s all;
+  position: relative;
+}
+
+.canais-recomendados {
+  padding: 20px 20px 20px 15px;
+  padding-bottom: 120px;
+  flex-direction: column;
+  margin-top: 35px;
+  width: 100%;
+  height: 100%;
+  background: #090116;
+  gap: 30px;
+  display: flex;
+  overflow: scroll;
+  align-items: start;
+  border-left: 1px solid var(--c7);
+}
+
+.canais-recomendados h3 {
+  position: relative;
+}
+
+.canais-recomendados h3:after {
+  content: "";
+  display: block;
+  margin-top: 8px;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: var(--c7);
+}
+
+@media (max-width: 800px) {
+  .sidenav {
+    position: fixed;
+    top: 6.5rem;
+    width: 180px;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sidenav {
+    width: 100px;
+  }
+}
+
+@media (max-width: 323px) {
+  .sidenav {
+    top: 6.2rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .sidenav {
+    width: 85px;
+  }
+}
+
+@media (max-width: 318px) {
+  .sidenav {
+    top: 6.2rem;
+  }
+}
+
+@media (max-width: 314px) {
+  .sidenav {
+    top: 10rem;
+  }
+}
+
+@media (max-width: 258px) {
+  .sidenav {
+    top: 14rem;
+  }
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+}

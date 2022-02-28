@@ -1,0 +1,53 @@
+.btn-menu {
+  background: linear-gradient(
+    98.95deg,
+    #3c1688 19.58%,
+    #49229b 58.41%,
+    #22449b 83.3%
+  );
+  border-radius: 50px;
+  color: var(--c2);
+  padding: 6px 30px;
+}
+
+.btn-menu:hover {
+  background: #3c1688;
+}
+
+.watch {
+  font-size: 12px;
+  background: var(--c5);
+  border-radius: 4px;
+  padding: 2px 8px;
+  -webkit-animation: watch 0.7s linear infinite;
+  -moz-animation: watch 0.7s linear infinite;
+  -ms-animation: watch 0.7s linear infinite;
+  -o-animation: watch 0.7s linear infinite;
+  animation: watch 0.7s linear infinite;
+}
+
+@keyframes watch {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.games {
+  font-size: 14px;
+  background: var(--c6);
+  border-radius: 4px;
+  padding: 2px 8px;
+}
+
+@media (max-width: 500px) {
+  .games,
+  .watch {
+    font-size: 10px;
+  }
+}

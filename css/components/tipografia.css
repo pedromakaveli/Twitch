@@ -1,0 +1,65 @@
+.h1 {
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+@media (max-width: 1079px) {
+  .h1 {
+    font-size: 1.125rem;
+  }
+
+  .link-sm {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .link-sm {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .h1,
+  .h2l-300,
+  .viewers,
+  .link-sm {
+    font-size: 0.875rem !important;
+  }
+}
+
+.h2l-300 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.link-sm {
+  font-size: 17px;
+}
+
+.link-md {
+  font-size: 30px;
+}
+
+.p-sm {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.viewers {
+  color: var(--c4);
+  font-size: 14px;
+  font-weight: 500;
+}
