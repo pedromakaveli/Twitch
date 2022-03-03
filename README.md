@@ -14,7 +14,7 @@ Com conhecimentos que adquiri durante meu aprendizado e fazendo o curso da Origa
 # Deseja ver como ficou?
 Abra no seu navegador e veja:
 
-<a href="https://pedromakaveli.github.io/Twitch">
+<a href="https://pedromakaveli.github.io/Twitch">Veja no seu navegador</a>
 
 # Resultado final
   
